@@ -108,3 +108,15 @@ a:hover{
         transform: rotate(-135deg);
         top: -7px;
 }
+}
+
+
+
+#background{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,10), rgba(0,0,0,0)), url(/images/forja-pic.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
