@@ -207,9 +207,28 @@ a:hover{
 
 .produtos{
     
-    margin: 0px;
+    margin-left: 250px;
     height: 100vh;
     background-color:rgba(0, 0, 0, 0.719);
+    display: grid;
+    grid-template-columns: 400px 300px;
+}
+
+.produtos h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img-produto{
+    max-width:400px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    border-radius: 5%;
+
+}
+
+.img-produto:hover{
+    opacity: 50%;
+    cursor: pointer;
 }
 
 #background h1{
